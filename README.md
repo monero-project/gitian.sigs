@@ -19,15 +19,14 @@ Developers submitting their own gitian results will create a subdirectory matchi
 Example for release `v0.14.1.0`:
 
 ```
-v0.14.1.0-linux/${GH_USERNAME}/monero-linux-v0.14.1.0-build.assert
-v0.14.1.0-linux/${GH_USERNAME}/monero-linux-v0.14.1.0-build.assert.sig
+v0.14.1.0-linux/${GH_USERNAME}/monero-linux-0.14-build.assert
+v0.14.1.0-linux/${GH_USERNAME}/monero-linux-0.14-build.assert.sig
 ```
 
-If you are committing for the first time, add your pgp public key to the gitian-pubkeys directory in armored ASCII format and a filename of `username.asc`.
+If you are committing for the first time, add your pgp public key to the `gitian-pubkeys` directory in armored ASCII format and a filename of `username.asc`.
 
 ## Verifying Gitian Signatures
 
 The `verify-merge.py` script can be used to verify existing gitian sigs. For example to verify all the signatures on the v0.14.1.0 assert files, run `./verify-merge.py v0.14.1.0`. More information on how to use the script can be found by running `./verify-merge.py --help`.
 
 It is also possible to use the script to check the signatures of open pull requests. For example for pull request id 12 on github: `./verify-merge.py --pull_id 12 v0.14.1.0`. Be aware that running this will change the content of your git tree by creating a new `$pull_id_head` and `$pull_id_base` branch. The script deletes these branches again on exit.
-
