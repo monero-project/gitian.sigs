@@ -39,7 +39,7 @@ def main():
     parser = argparse.ArgumentParser(usage='%(prog)s [options] version', description='Use this script before merging a pull request to the gitian.sigs repository and to verify the signature of existing gitian assert files and gitian assert files in specific pull requests')
     parser.add_argument('-p', '--pull_id', dest='pull_id', help='Github Pull request id to check')
     parser.add_argument('--monero-dir', dest='monero_dir', default='../monero', help='System Path to the monero repository, e.g. /home/user/monero')
-    parser.add_argument('--gitiian-builder-dir', dest='gitian_builder_dir', default='../gitian-builder', help='System Path to the gitian-builder repository, e.g. /home/user/gitian-builder')
+    parser.add_argument('--gitian-builder-dir', dest='gitian_builder_dir', default='../gitian-builder', help='System Path to the gitian-builder repository, e.g. /home/user/gitian-builder')
     parser.add_argument('-r', '--remote', dest='remote', default='upstream', help='git remote repository')
     parser.add_argument('-t', '--target-branch', dest='target_branch', default='master', help='Remote repository merge into branch')
     parser.add_argument('-m', '--merge', action='store_true', dest='merge', help='Merge the given pull request id')
