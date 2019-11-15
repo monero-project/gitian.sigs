@@ -27,7 +27,7 @@ def verify():
         sys.stderr.write('Please clone the monero repository from github.com/monero-project/monero to the directory containing the gitian.sigs repository.\nIf you already have the monero repository cloned, but under another name or path, use --monero-dir to pass its absolute directory path to the script.\n')
         sys.exit(1)
     os.chdir(args.gitian_builder_dir)
-    for os_label, os_id in [("Linux","linux"), ("Windows","win"), ("MacOS","osx")]:
+    for os_label, os_id in [("Linux","linux"), ("Windows","win"), ("MacOS","osx"), ("Android", "android")]:
         if os.path.isdir(workdir + '/' + args.version + '-' + os_id):
             print('\nVerifying ' + args.version + ' ' + os_label)
             subprocess.check_call(['bin/gverify', '-v', '-d', workdir, '-r', args.version + '-' + os_id, args.monero_dir + '/contrib/gitian/gitian-' + os_id + '.yml'])
