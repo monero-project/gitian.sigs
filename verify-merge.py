@@ -36,6 +36,35 @@ def verify():
         sys.stderr.write('ERROR: One or more signatures failed verification.\n')
         exit(1)
 
+    print('All signatures verified correctly.\n')
+    print('Beginning checksum comparison...\n')
+    # Check that the contents between the assertion signers match. This is meant for quick verification, not for validation of their contents
+    # TODO: prevent false positives related to filenames / whitespace / formatting.
+    builds = glob.glob(ver_pattern + '*')
+    for build in builds:
+        first_file = glob.glob(build + '/*/*.assert', recursive=False)[0]
+        f = open(first_file, "r")
+        first_file_contents = f.readlines()
+        f.close()
+        for assert_file in glob.glob(build + '/*/*.assert', recursive=False):
+            f = open(assert_file, "r")
+            assert_file_contents = f.readlines()
+            f.close()
+            for i in range(len(assert_file_contents)):
+                # compare everything in the assertions until the base image manifests
+                if assert_file_contents[i] == "- base_manifests: !!omap\n":
+                    break
+                # the OSX SDK may change from time to time
+                if "sdk" in assert_file_contents[i]:
+                    continue
+                if assert_file_contents[i] != first_file_contents[i]:
+                    print("ERROR: Found conflicting contents on line:", i)
+                    print(assert_file, ":\n", assert_file_contents[i])
+                    print(first_file, ":\n", first_file_contents[i])
+                    exit(1)
+
+    print('No discrepancies found in assertion files.')
+    print('All checks passed.')
     os.chdir(workdir)
 
 def main():
