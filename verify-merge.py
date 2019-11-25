@@ -59,7 +59,7 @@ def verify():
                 if 'sdk' in assert_file_contents[i]:
                     continue
                 if assert_file_contents[i] != first_file_contents[i]:
-                    sys.stderr.write('ERROR: Found conflicting contents on line:', i)
+                    sys.stderr.write('ERROR: Found conflicting contents on line: ' + str(i) + ' of file ')
                     sys.stderr.write(assert_file + ':\n' + assert_file_contents[i])
                     sys.stderr.write(first_file + ':\n' + first_file_contents[i])
                     exit(1)
