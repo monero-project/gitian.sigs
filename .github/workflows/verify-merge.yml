@@ -1,0 +1,14 @@
+name: ci/gh-actions/verify-merge
+
+on: [push, pull_request]
+
+jobs:
+  verify-merge:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        submodules: recursive
+    - name: verify-merge
+      run: python3 ./verify-merge.py --import-keys
+
