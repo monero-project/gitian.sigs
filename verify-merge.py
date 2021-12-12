@@ -186,6 +186,8 @@ def verify_checksums(assert_files):
             # The OSX SDK may change from time to time:
             if 'sdk' in assert_file_contents[i]:
                 continue
+            if assert_file_contents[i].strip() == '\'':
+                continue
             if assert_file_contents[i] != first_file_contents[i]:
                 sys.stderr.write('ERROR: Found conflicting contents on line: ' + str(i) + ' of file ')
                 sys.stderr.write(assert_file['path'] + ':\n' + assert_file_contents[i])
