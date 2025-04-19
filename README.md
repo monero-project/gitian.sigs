@@ -8,7 +8,7 @@ From [gitian.org](https://gitian.org/):
 
 ## How to contribute
 
-[<img alt="Build Status" src="https://travis-ci.org/monero-project/gitian.sigs.svg?branch=master">](https://travis-ci.org/monero-project/gitian.sigs)
+[<img alt="Build Status" src="https://flat.badgen.net/travis/github/monero-project/gitian.sigs">](https://travis-ci.org/monero-project/gitian.sigs)
 
 We need more contributors to build Monero and confirm the Gitian results.
 Please follow the **[gitian build instructions](https://github.com/monero-project/monero/blob/master/contrib/gitian/README.md)** to contribute your assertions.
