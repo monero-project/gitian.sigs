@@ -4,9 +4,9 @@ on: [push, pull_request]
 
 jobs:
   verify-merge:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
     - name: verify-merge
       run: python3 ./verify-merge.py --import-keys
 
