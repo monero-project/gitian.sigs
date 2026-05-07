@@ -278,19 +278,15 @@
 - cache_common_manifest: |
     68797baaacb52f56f713400de306a58a7ca00b05c3dc6d58f0a8283bcac721f8  MacOSX11.1.sdk.tar.xz
     5dfbbdc2d3ba859fed90d0e978af87c71a91a5be1f6e1c40ba697503d48ccecd  android-ndk-r17b-linux-x86_64.zip
-    7bcc5caace97baa948931d712ea5f37038dbb1c5d89b43ad4def4ed7cb683332  boost_1_64_0.tar.bz2
     9a2c2819310839ea373f42d69e733c339b4e9a19deab6bfec448281554aa4dbb  boost_1_69_0.tar.gz
     fa9d7f38367431bc86b19ad107d709ca7ecf1574fdacca01698bdf0a47cd8567  ccache-3.3.4.tar.bz2
     a23b082b30c128c9831dbdd96edad26b43f56624d0ad0ea9edec506f5385038d  clang-llvm-9.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz
     a41e8e841a09da88cec2b1245853864860171080270c4ebd446c81f1c38362d9  download-stamps/.stamp_fetched-android_ndk-android-ndk-r17b-linux-x86_64.zip.hash
-    150079aa5f2d25b3c47f7d8f100c91589ff979c806b9588abdf3fd41c0d80869  download-stamps/.stamp_fetched-boost-boost_1_64_0.tar.bz2.hash
     cfb4dd6d372184aa0890cef1f893eccb044ec923f71b9c0a8fb1c9ad41af0104  download-stamps/.stamp_fetched-boost-boost_1_69_0.tar.gz.hash
     3f3eb4450a1ab690db4c652a90290dab4f7f75c94e358434700237864048bbda  download-stamps/.stamp_fetched-darwin_sdk-MacOSX11.1.sdk.tar.xz.hash
     6a85d4adf093f9995fe2bd4c85727179b69f1177f7eb122bc38e618eb96356ab  download-stamps/.stamp_fetched-eudev-eudev-v3.2.6.tar.gz.hash
-    126b7a65a25fc87c83e657750fe202cac895750b9bbe7c47b21a59d43b787dcc  download-stamps/.stamp_fetched-expat-expat-2.4.1.tar.bz2.hash
     6b2ba4dc08cf2852b961f16a438d809a47c4a5efd7e0a0324a699f2b97fd452b  download-stamps/.stamp_fetched-expat-expat-2.6.0.tar.bz2.hash
     ca5d0aa0f53b936101f73afca9aedcd53dd101986f004b1fc2a3d05358553eef  download-stamps/.stamp_fetched-freebsd_base-freebsd-base-11.3.txz.hash
-    3d1751748a27aaecae1d2c4b5c8f336ecacdda5584a4814083d26874d2ffb964  download-stamps/.stamp_fetched-hidapi-hidapi-0.13.1.tar.gz.hash
     f5fbcd3285211c04c10955e9f9cfe93319f8ca6d77d20ec8960ae05cb4555a60  download-stamps/.stamp_fetched-hidapi-hidapi-0.15.0.tar.gz.hash
     9bd23ab7a1f2eb888991ac49929270899c95efdf41d02b111e9814659e6f10f8  download-stamps/.stamp_fetched-icu4c-icu4c-55_2-src.tgz.hash
     f527238d94271fb8914cecd4a42e87ac10eceaec83deb6acd2c969bb034201f3  download-stamps/.stamp_fetched-libiconv-libiconv-1.15.tar.gz.hash
@@ -301,22 +297,16 @@
     2f33b68bd5b2112e5dd7129d8514d08e6958a74ebe45eddc2659889a0662dce7  download-stamps/.stamp_fetched-native_libtapi-native_libtapi-664b8414f89612f2dfd35a9b679c345aa5389026.tar.gz.hash
     17a1933e1b12622de6f9edf015477b5a27ca25cc9a6a35768d355b98360e04f1  download-stamps/.stamp_fetched-native_protobuf-protobuf-cpp-3.6.1.tar.gz.hash
     1ae92e61f8a7d6c23f06e019b607047af85c1858fd754a9617cc783a1c39372a  download-stamps/.stamp_fetched-ncurses-ncurses-6.1.tar.gz.hash
-    c039a4e14d7fd7f1f1ceafdbadef4f2c12456b52e940691a920d6b64357f0402  download-stamps/.stamp_fetched-openssl-openssl-1.1.1t.tar.gz.hash
-    3d4bd1973b6edf347a86a9187092cffc04956572d4d4ed93d4ccd3b73d3d982a  download-stamps/.stamp_fetched-openssl-openssl-1.1.1u.tar.gz.hash
-    03f2786db26449843fd75347af0832d2b8c4fa85b1d14ca06e8c3113d768e4a2  download-stamps/.stamp_fetched-openssl-openssl-3.0.13.tar.gz.hash
     3858953305117828c19dd678cf6c528c8dd9929309f500f1c944f0ae1c7488d7  download-stamps/.stamp_fetched-openssl-openssl-3.0.19.tar.gz.hash
     17a1933e1b12622de6f9edf015477b5a27ca25cc9a6a35768d355b98360e04f1  download-stamps/.stamp_fetched-protobuf-protobuf-cpp-3.6.1.tar.gz.hash
     3ecaeb7e310b8415dee76ab24a21478916a0292743a055c2c81e8f1075f9ac1d  download-stamps/.stamp_fetched-readline-readline-8.0.tar.gz.hash
     f96dcb0802af3862d6087ec906bdffe0f969b72a3eef11c795657e1d6fbb9d42  download-stamps/.stamp_fetched-sodium-libsodium-1.0.18.tar.gz.hash
-    dcfe47129aa92dc8cc76f1ba67c78dc0d070069c74bebe34f5c3881759b7fffe  download-stamps/.stamp_fetched-unbound-unbound-1.15.0.tar.gz.hash
     8c628456f22d6c3a503382ef39ed4c741748401c42c755417b485f3645ea2b85  download-stamps/.stamp_fetched-unbound-unbound-1.19.1.tar.gz.hash
     bccbfb57cec57dcd5e1970137347264b7d3072f67b0f804246d854f809a5b4fb  download-stamps/.stamp_fetched-unwind-libunwind-1.5.0.tar.gz.hash
     2f844793ca858919f7f5b4e9f47e3d2ca21f690bd28a01d3bf7392564feb022e  download-stamps/.stamp_fetched-zeromq-zeromq-4.3.4.tar.gz.hash
     a96ecb8637667897b8bd4dee4c22c7c5f08b327be45186e912ce6bc768385852  eudev-v3.2.6.tar.gz
-    2f9b6a580b94577b150a7d5617ad4643a4301a6616ff459307df3e225bcfbf40  expat-2.4.1.tar.bz2
     ff60e6a6b6ce570ae012dc7b73169c7fdf4b6bf08c12ed0ec6f55736b78d85ba  expat-2.6.0.tar.bz2
     4599023ac136325b86f2fddeec64c1624daa83657e40b00b2ef944c81463a4ff  freebsd-base-11.3.txz
-    476a2c9a4dc7d1fc97dd223b84338dbea3809a84caea2dcd887d9778725490e3  hidapi-0.13.1.tar.gz
     5d84dec684c27b97b921d2f3b73218cb773cf4ea915caee317ac8fc73cef8136  hidapi-0.15.0.tar.gz
     eda2aa9f9c787748a2e2d310590720ca8bcc6252adf6b4cfb03b65bef9d66759  icu4c-55_2-src.tgz
     ccf536620a45458d26ba83887a983b96827001e92a13847b45e4925cc8913178  libiconv-1.15.tar.gz
@@ -326,158 +316,50 @@
     70a7189418c2086d20c299c5d59250cf5940782c778892ccc899c66516ed240e  native_cctools-04663295d0425abfac90a42440a7ec02d7155fea.tar.gz
     62e419c12d1c9fad67cc1cd523132bc00db050998337c734c15bc8d73cc02b61  native_libtapi-664b8414f89612f2dfd35a9b679c345aa5389026.tar.gz
     aa057eeeb4a14d470101eff4597d5833dcef5965331be3528c08d99cebaa0d17  ncurses-6.1.tar.gz
-    8dee9b24bdb1dcbf0c3d1e9b02fb8f6bf22165e807f45adeb7c9677536859d3b  openssl-1.1.1t.tar.gz
-    e2f8d84b523eecd06c7be7626830370300fbcc15386bf5142d72758f6963ebc6  openssl-1.1.1u.tar.gz
-    88525753f79d3bec27d2fa7c66aa0b92b3aa9498dafd93d7cfa4b3780cdae313  openssl-3.0.13.tar.gz
     fa5a4143b8aae18be53ef2f3caf29a2e0747430b8bc74d32d88335b94ab63072  openssl-3.0.19.tar.gz
     b3732e471a9bb7950f090fd0457ebd2536a9ba0891b7f3785919c654fe2a2529  protobuf-cpp-3.6.1.tar.gz
     e339f51971478d369f8a053a330a190781acb9864cf4c541060f12078948e461  readline-8.0.tar.gz
-    a480dc6c8937447b98d161fe911ffc76cfaffa2da18788781314e81339f1126f  unbound-1.15.0.tar.gz
     bc1d576f3dd846a0739adc41ffaa702404c6767d2b6082deb9f2f97cbb24a3a9  unbound-1.19.1.tar.gz
     c593001a89f5a85dd2ddf564805deb860e02471171b3f204944857336295c3e5  zeromq-4.3.4.tar.gz
 - cache_package_manifest: |
-    5f72a8d40ff0b7ca95c80af5dbe1b7f3704560e5be29f82e944676545a888d1d  aarch64-linux-android/android_ndk/android_ndk-17b-182326d8abc.tar.gz
-    85b241453938505df6ad9ca915a778e4090aea5c9a5e6e9c4eb937660f3b8997  aarch64-linux-android/android_ndk/android_ndk-17b-182326d8abc.tar.gz.hash
     5f72a8d40ff0b7ca95c80af5dbe1b7f3704560e5be29f82e944676545a888d1d  aarch64-linux-android/android_ndk/android_ndk-17b-42c4835cf02.tar.gz
     7f0f9d06ab509922d48192a24ba471deead2ed6f7049baad32c3f6bc47d99284  aarch64-linux-android/android_ndk/android_ndk-17b-42c4835cf02.tar.gz.hash
-    5f72a8d40ff0b7ca95c80af5dbe1b7f3704560e5be29f82e944676545a888d1d  aarch64-linux-android/android_ndk/android_ndk-17b-85a9c0bb5e8.tar.gz
-    6bfd9ad7c37610337ad8f9cbf35e3904d55bbf26e6933dfb83a4294e6871772e  aarch64-linux-android/android_ndk/android_ndk-17b-85a9c0bb5e8.tar.gz.hash
     6c57a687ec00bb36f62936dbe0e7ce090147d58b93a1b7d6d64a31901d2c22d6  aarch64-linux-android/boost/boost-1.69.0-064bbb923a6.tar.gz
     a09049cc6f32ba7991342eb765160dd5536668244bc5d4de35b583b5c18536a8  aarch64-linux-android/boost/boost-1.69.0-064bbb923a6.tar.gz.hash
-    c5520867d884b1be0d3c8ba6dfc5148429d0a124da8b858754932fe28b9cf16f  aarch64-linux-android/boost/boost-1_64_0-437c2815847.tar.gz
-    d3d6d07dde9da8b7bbc9f43adf065a80725474d7a89d25b5076393db02612424  aarch64-linux-android/boost/boost-1_64_0-437c2815847.tar.gz.hash
-    2de9766c901af14bbfc478fc46a5950a6ae8181ae32376afbbba175c3ee60336  aarch64-linux-android/boost/boost-1_64_0-44d47fcf080.tar.gz
-    9d15a578af9692b92c81cc2ed76ba1607127a4b8d1210406c3f30c4c87b302ac  aarch64-linux-android/boost/boost-1_64_0-44d47fcf080.tar.gz.hash
-    ed727254ea946e32e71182436506ff9a5de08d613a65409d2d9fc6803b99e75b  aarch64-linux-android/expat/expat-2.4.1-29f99540959.tar.gz
-    72a5901c90bbe65b79f5a5b60f656da5ab420c2b232c878770a6f363c51984ae  aarch64-linux-android/expat/expat-2.4.1-29f99540959.tar.gz.hash
     841130d55479bf040ced7e50cf7acdbd046585c783a0a1b23e1486d2722b7661  aarch64-linux-android/expat/expat-2.6.0-41159673c05.tar.gz
     db2d4ca7b79ef16f4238d06e3d61332a6a82ec095554e4d9e054439ed12f03a8  aarch64-linux-android/expat/expat-2.6.0-41159673c05.tar.gz.hash
-    5b75dea31a96413f838c2471f177526adc96908ec39d399f5cbd0b5ae9cd52b8  aarch64-linux-android/expat/expat-2.6.0-f1d347a6789.tar.gz
-    b75087a93fe576fecb338b005c61e4327289a40938c5798eda47d2e04e4c59a0  aarch64-linux-android/expat/expat-2.6.0-f1d347a6789.tar.gz.hash
-    81671996cabb86866441c24fb2899b29426259a7440a6be71a7cd9c5d1a54127  aarch64-linux-android/libiconv/libiconv-1.15-352a6ee4c7f.tar.gz
-    a731ac8bdac4b39565d309f4519d0c5b4ac0a7ea11a8463e937d243d710cf368  aarch64-linux-android/libiconv/libiconv-1.15-352a6ee4c7f.tar.gz.hash
-    81671996cabb86866441c24fb2899b29426259a7440a6be71a7cd9c5d1a54127  aarch64-linux-android/libiconv/libiconv-1.15-75221fb1cfd.tar.gz
-    48fa27f14a4cd85bd0406b978c5bce456043ecbb3bf7822863008d7a2b3461a0  aarch64-linux-android/libiconv/libiconv-1.15-75221fb1cfd.tar.gz.hash
     6dd3b40b361053496f80a8ad63f86ab43374c1b8a965cf0f8aaf369c0b04a8d3  aarch64-linux-android/libiconv/libiconv-1.15-dab625d50e4.tar.gz
     8ee86d3ddcb13fac17ea777f74d037c08f930a7dbcb914db1c6931f8a933ca92  aarch64-linux-android/libiconv/libiconv-1.15-dab625d50e4.tar.gz.hash
-    0c5e55e36ef4d6309b61936320f9b2219069166f7384183b2fd1c2522aab9b1e  aarch64-linux-android/ncurses/ncurses-6.1-11d6d171a49.tar.gz
-    a7a5c17a204423515457257755be3d802b4aabe81396cb56e6c2d0d5ce109879  aarch64-linux-android/ncurses/ncurses-6.1-11d6d171a49.tar.gz.hash
     a4e324f5378bdb8c32092813a6777501cbc700be05ec2dbea08517fd7184094e  aarch64-linux-android/ncurses/ncurses-6.1-176348aaaef.tar.gz
     4f49acfb5cf26399a9bf8a6171fdd05bf1b28d7069fad9dcafa851e173470ef2  aarch64-linux-android/ncurses/ncurses-6.1-176348aaaef.tar.gz.hash
-    0c5e55e36ef4d6309b61936320f9b2219069166f7384183b2fd1c2522aab9b1e  aarch64-linux-android/ncurses/ncurses-6.1-2ac0fccd43c.tar.gz
-    a959aace84feaa220065b7c26ac9806e40cc23b37661a0108fc54af9f3e9e12f  aarch64-linux-android/ncurses/ncurses-6.1-2ac0fccd43c.tar.gz.hash
-    25af9aa3a6e08c84c0a853fc49ddb510acac76fc654ebb9c1b428bde3b407342  aarch64-linux-android/openssl/openssl-1.1.1t-fa27148bb41.tar.gz
-    843ec0b150a12cfbc6991e2234666e79a14b676bf5a8a9600182d263637fdb8c  aarch64-linux-android/openssl/openssl-1.1.1t-fa27148bb41.tar.gz.hash
-    fdb2f1d91932550180e5dd3a3c5fc9a02fbca49d8f8679cf702861076cd24e80  aarch64-linux-android/openssl/openssl-1.1.1u-121823c4e06.tar.gz
-    9b03638be2ec374c96c2fefb7178032dff0dd49be25b8a4c48c3c894333dc3ad  aarch64-linux-android/openssl/openssl-1.1.1u-121823c4e06.tar.gz.hash
-    421e72f06163324c92fbb07f860989e46a4747685b0f4b48296381a50922ee65  aarch64-linux-android/openssl/openssl-3.0.13-95b863af860.tar.gz
-    481ad6591386f229a436cba38ef8174ab1bbaa7baa6bdf293712a1f822bcda34  aarch64-linux-android/openssl/openssl-3.0.13-95b863af860.tar.gz.hash
-    6e5ffd385a5282c2153b4d42881a0ee6d944aeaf8a4098ba8dae89b9e5ece99f  aarch64-linux-android/openssl/openssl-3.0.13-ed00e867f50.tar.gz
-    24bf57232f9fc2a52dd8bdaf17438cd8176f41855a7f18838925c40a95be2c2b  aarch64-linux-android/openssl/openssl-3.0.13-ed00e867f50.tar.gz.hash
-    940045e40105faf125f5150932e63d2ec754ee1a83f087c63743cfe5b4693aaf  aarch64-linux-android/openssl/openssl-3.0.19-88b8096b79e.tar.gz
-    ce6f781b32b2a2945eb56789b02172c5cec35863d7ea296baf729ca5400c2861  aarch64-linux-android/openssl/openssl-3.0.19-88b8096b79e.tar.gz.hash
-    cdf962394edc9694333f7765d0df756a0a45f34ee57c969f8fcf45ecad4baafa  aarch64-linux-android/openssl/openssl-3.0.19-a9598e54a6d.tar.gz
-    81bfda5ee8b62b816a67eedf8b331f48fc2c56d701ba28f8b2e7d57995df2d6b  aarch64-linux-android/openssl/openssl-3.0.19-a9598e54a6d.tar.gz.hash
-    a734c38a55af78829324e81082220a2276cfecd4b9ba05d905cbab272607875c  aarch64-linux-android/readline/readline-8.0-37ff6081b8d.tar.gz
-    f601489b31b5ba5fa2ca91523c36eef8f18ba3daebfa5dd30e88723742379bf3  aarch64-linux-android/readline/readline-8.0-37ff6081b8d.tar.gz.hash
+    46ba07d9ae253a84f9f803e16c403c18f83b95a47f0d962483390039a270ceb6  aarch64-linux-android/openssl/openssl-3.0.19-88b8096b79e.tar.gz
+    98440a3676afd36398ff77b8a20852195b85dd5a2cb3cb819b4a62641085ee8b  aarch64-linux-android/openssl/openssl-3.0.19-88b8096b79e.tar.gz.hash
     c216103671515b72e67b08530a25d5227ec80aa06b5a4a57f177866ee8e681fa  aarch64-linux-android/readline/readline-8.0-8e7d06d5400.tar.gz
     abff1d8ceea01bba7c3366e224564e51892d6cb19e81af5ee480b0936db3c4d9  aarch64-linux-android/readline/readline-8.0-8e7d06d5400.tar.gz.hash
-    a734c38a55af78829324e81082220a2276cfecd4b9ba05d905cbab272607875c  aarch64-linux-android/readline/readline-8.0-f78c0cae426.tar.gz
-    6a279109358c7ee8f95f3f482e952f55e71af987ef28d3d830c572b427e7d755  aarch64-linux-android/readline/readline-8.0-f78c0cae426.tar.gz.hash
     c6cc792596cf3971d68ee5746d405055689f31189f5245defc1126a025c7a027  aarch64-linux-android/sodium/sodium-1.0.18-07958a410b8.tar.gz
     935c1ecf4c7bf3e2ae6e03461cbdf268ddbdd83c5dc6817c2157df2011b5499a  aarch64-linux-android/sodium/sodium-1.0.18-07958a410b8.tar.gz.hash
-    123e72e6aef382aba4edb94c279951734e6d57b85744f0906e18bcdee1f7f523  aarch64-linux-android/sodium/sodium-1.0.18-3953eabfed1.tar.gz
-    08ec2f660a5ad5e35fcdd2aa2c3644c91b95e7f4d2d935383870c4ad4f7984c1  aarch64-linux-android/sodium/sodium-1.0.18-3953eabfed1.tar.gz.hash
-    123e72e6aef382aba4edb94c279951734e6d57b85744f0906e18bcdee1f7f523  aarch64-linux-android/sodium/sodium-1.0.18-ed35d176c19.tar.gz
-    ac98c01314a3b16ce232fcf0976afbda2788feefc6cae4d2f995ab5ce30e654f  aarch64-linux-android/sodium/sodium-1.0.18-ed35d176c19.tar.gz.hash
-    08d17bb31efca938799f3a55f560178076aee7c88de612c60e744018eebdf4a9  aarch64-linux-android/unbound/unbound-1.15.0-0a8b11c62a2.tar.gz
-    4b0d05cba4438ad242962a42079d15c23b7f782c31b10905f452f2390f391f33  aarch64-linux-android/unbound/unbound-1.15.0-0a8b11c62a2.tar.gz.hash
-    3dd10d94bc58f17a5ae473bcabd1f21eb06f20bf26e0552de2d19e1a4a660a59  aarch64-linux-android/unbound/unbound-1.15.0-964b0199bed.tar.gz
-    f46509d51cc5040ec834fb8195a3ce7d238097b15482e66e4b0dcbf514131730  aarch64-linux-android/unbound/unbound-1.15.0-964b0199bed.tar.gz.hash
-    f151c8f992be215b3b2883c05fda7bb94339b2f9d061e2751f0b372b738793b1  aarch64-linux-android/unbound/unbound-1.19.1-1ca2a7e3ef4.tar.gz
-    a81474f92c9843f96d43be5835200d51585f07cb69f4c6c3c7144e34c158b025  aarch64-linux-android/unbound/unbound-1.19.1-1ca2a7e3ef4.tar.gz.hash
-    78ae720f32bb8f13cb30c9f0074cce5c4ebf11e84245beeedc242bbccb8e4cdd  aarch64-linux-android/unbound/unbound-1.19.1-345e21a6bbb.tar.gz
-    a7ddc58c7cb4ca3528a0ad513341d1f852a328193a8eedc1ceb7d283aa087266  aarch64-linux-android/unbound/unbound-1.19.1-345e21a6bbb.tar.gz.hash
-    16fe05b6b6436c20780d43371a7c1da47e7b198157f6e581f9cb7ac4b1548293  aarch64-linux-android/unbound/unbound-1.19.1-82cd98dbefd.tar.gz
-    0e8844b82d08337cdd89641fc8ff70b1778b275ba7ede681a69c5b9daabb1449  aarch64-linux-android/unbound/unbound-1.19.1-82cd98dbefd.tar.gz.hash
-    79ef742459c48ac18805478eec7bd4c41eda38e6ba6cb06d6ce968ecb250cde2  aarch64-linux-android/unbound/unbound-1.19.1-994d5fb6962.tar.gz
-    fd2b0ea998b4697504ab5fff2b580ead30742902c684de9f0ed3cd6e54fb32e7  aarch64-linux-android/unbound/unbound-1.19.1-994d5fb6962.tar.gz.hash
-    9e750e771d34bc8659fbaed829de8af1f27ad57ad4bceb5b1ede465677495a01  aarch64-linux-android/zeromq/zeromq-4.3.4-273415b89b3.tar.gz
-    0114349550cfd664c8f586a2f59ab3bd7df875e06cd5eba3fb162a55ed642a76  aarch64-linux-android/zeromq/zeromq-4.3.4-273415b89b3.tar.gz.hash
-    9e750e771d34bc8659fbaed829de8af1f27ad57ad4bceb5b1ede465677495a01  aarch64-linux-android/zeromq/zeromq-4.3.4-576e7cf49f7.tar.gz
-    cabebfb5b72c72cfa2f3143d0bcf4027360213d63d8a0e996fd909f9d7107834  aarch64-linux-android/zeromq/zeromq-4.3.4-576e7cf49f7.tar.gz.hash
+    42bda9c49dbf1cbbdb21878e5ef48e9b4d1abe09908b0f6d9a7c90944b1f4fe3  aarch64-linux-android/unbound/unbound-1.19.1-345e21a6bbb.tar.gz
+    4f59b697846b550570987e2bd63c719e39cc677cb347d6b03f01bbfaea61f022  aarch64-linux-android/unbound/unbound-1.19.1-345e21a6bbb.tar.gz.hash
     593184c42e049cca26b517f12241b98e1a404ce92a6adf0172e084acb3778ed6  aarch64-linux-android/zeromq/zeromq-4.3.4-94a99b46afa.tar.gz
     54f5b7e0b9d4624bb63cb162066bd2f85fe43bee364f0f4948fecd5002b206ba  aarch64-linux-android/zeromq/zeromq-4.3.4-94a99b46afa.tar.gz.hash
-    35670a46909db9a52fae7a4c2b1fd14d1a40600eaaebe479fa01a9290b4efddb  arm-linux-android/android_ndk/android_ndk-17b-182326d8abc.tar.gz
-    7c4d1e894aa4b5f9281151670dde7ae86fe0ded517a8efa446eb73a0b4903729  arm-linux-android/android_ndk/android_ndk-17b-182326d8abc.tar.gz.hash
     35670a46909db9a52fae7a4c2b1fd14d1a40600eaaebe479fa01a9290b4efddb  arm-linux-android/android_ndk/android_ndk-17b-42c4835cf02.tar.gz
     ef8795d4c28de27e725cab447d0bda47332b41ff92788606676808720c15c233  arm-linux-android/android_ndk/android_ndk-17b-42c4835cf02.tar.gz.hash
-    35670a46909db9a52fae7a4c2b1fd14d1a40600eaaebe479fa01a9290b4efddb  arm-linux-android/android_ndk/android_ndk-17b-85a9c0bb5e8.tar.gz
-    15da443acd0aab627a4eadfa9be7d89ec08845620bd233eb1a2429256e6ffd02  arm-linux-android/android_ndk/android_ndk-17b-85a9c0bb5e8.tar.gz.hash
     1b8b16cf7779ed372f5ba5be3d1ecc4f50ab51fe5f2cc387f5a99f7d4397804c  arm-linux-android/boost/boost-1.69.0-064bbb923a6.tar.gz
     376289c473733b0efc1e97ef1b751ed3fcd6f2c22130d84b260869a255e95e49  arm-linux-android/boost/boost-1.69.0-064bbb923a6.tar.gz.hash
-    917e5dabeb39d1d2601da26b92b0f6e616b45c6249a7d92287f2dc343d5a91f8  arm-linux-android/boost/boost-1_64_0-437c2815847.tar.gz
-    8ccc4fbedd6b0a4daa9cb025d734da400d436ecff9c9136c3be5e7938c1a8d10  arm-linux-android/boost/boost-1_64_0-437c2815847.tar.gz.hash
-    ada0ba821d552eed63ef72fa10f6316f4042e358bfd0bc1af202abc51a253837  arm-linux-android/boost/boost-1_64_0-44d47fcf080.tar.gz
-    88b260ea9ef6581a1558b04d55b5cdc0089fc072132bdf8e99b5a9641f24e671  arm-linux-android/boost/boost-1_64_0-44d47fcf080.tar.gz.hash
-    fb0dfaa064bc1366d2bb233011a6a22665d62945fd7bc27e0b154cce6cf87d8e  arm-linux-android/expat/expat-2.4.1-29f99540959.tar.gz
-    2b4e1edd92412210d6e5426ca87b3f774ba6edcf62701be7816d3f0e22b53c98  arm-linux-android/expat/expat-2.4.1-29f99540959.tar.gz.hash
     b04f1a8d082261dc5ddb0bd0d39ca2071383910fc6a95c25fcc38bc29b63744e  arm-linux-android/expat/expat-2.6.0-41159673c05.tar.gz
     381ddfc3c0025c76a9be63ce4e899d5482ce93a9f8b26285aa1c44f5bf5bcb42  arm-linux-android/expat/expat-2.6.0-41159673c05.tar.gz.hash
-    bb3531d6ca3c5d091aacc2c569494b018c0d3316a735fd5a01edc9d462d181d3  arm-linux-android/expat/expat-2.6.0-f1d347a6789.tar.gz
-    9403b3a6919da937cc716c7a22c7b4ce9b8030ee55e4a034bf02e425c415701f  arm-linux-android/expat/expat-2.6.0-f1d347a6789.tar.gz.hash
-    53f74ed91b7aab080a3a1b7c660d69269b8d3291517c26fa0c4e85a74b7f111f  arm-linux-android/libiconv/libiconv-1.15-352a6ee4c7f.tar.gz
-    92df79df19d5b79b7ae79f8424fa12a27555311d4dffa6938abfc3bc5d11920c  arm-linux-android/libiconv/libiconv-1.15-352a6ee4c7f.tar.gz.hash
-    53f74ed91b7aab080a3a1b7c660d69269b8d3291517c26fa0c4e85a74b7f111f  arm-linux-android/libiconv/libiconv-1.15-75221fb1cfd.tar.gz
-    778324736c09cd833bc5a675301b190b96178b33d6309bb4514a8a320fbf5802  arm-linux-android/libiconv/libiconv-1.15-75221fb1cfd.tar.gz.hash
     d286c751143bcf60b2da5b816a579cb5efb5af5f3d67276833ae4a9832f210be  arm-linux-android/libiconv/libiconv-1.15-dab625d50e4.tar.gz
     f694a0de719c80efc74ca82021b89ffbe163b00dccad500e209205c6af235299  arm-linux-android/libiconv/libiconv-1.15-dab625d50e4.tar.gz.hash
-    faee01f2de629814488c873d95713e8f10035c7f20e29e84f5ef443e10d24de9  arm-linux-android/ncurses/ncurses-6.1-11d6d171a49.tar.gz
-    128f8c7706f6d29665cc58d8d1957a3b7a3841a22b63df60ad691dc51b42df4b  arm-linux-android/ncurses/ncurses-6.1-11d6d171a49.tar.gz.hash
     06f17965ad16bf20b1784445f86725e83c3217c050e42128d1f5d5cb99748b92  arm-linux-android/ncurses/ncurses-6.1-176348aaaef.tar.gz
     bdc503255c9430ef791b889d132750aeb9db79570eb3221bf3ffc3675c16013d  arm-linux-android/ncurses/ncurses-6.1-176348aaaef.tar.gz.hash
-    faee01f2de629814488c873d95713e8f10035c7f20e29e84f5ef443e10d24de9  arm-linux-android/ncurses/ncurses-6.1-2ac0fccd43c.tar.gz
-    04aa86ca1f7ac6c7e8ca364a9595f6c6829d0d52310dbc2e4c91b9902796819a  arm-linux-android/ncurses/ncurses-6.1-2ac0fccd43c.tar.gz.hash
-    a80bb904d84c69dfd0b9ae2cce2fe70cc495cab167c76c65bba8727b43e34b84  arm-linux-android/openssl/openssl-1.1.1t-fa27148bb41.tar.gz
-    4c22982b853e7eb21fdc20ec13beaea9e2ff6d86076708e86d01ca8889cf0fd9  arm-linux-android/openssl/openssl-1.1.1t-fa27148bb41.tar.gz.hash
-    edd88388eda9d150f6ec1003127b10682a5d9d7cfdf0843236f6bd66ac5cbd07  arm-linux-android/openssl/openssl-1.1.1u-121823c4e06.tar.gz
-    457fdf7cd5333ebbbf75e82cd2f4464391e1a9327ff57bf9830faf8e71a260d2  arm-linux-android/openssl/openssl-1.1.1u-121823c4e06.tar.gz.hash
-    09bbadff417b9f1d6e31e4c53a997e615a362cd9fd1234c20be64e6ba31487d9  arm-linux-android/openssl/openssl-3.0.13-95b863af860.tar.gz
-    62cbccee7c75223da3930724beb665b0f2340df9507720e2a1fb93dd2d5af09c  arm-linux-android/openssl/openssl-3.0.13-95b863af860.tar.gz.hash
-    916d49a7e25e8a698ec5ecb3fdb99e217834b01ea242bb2a9aa8c3f5c724dc44  arm-linux-android/openssl/openssl-3.0.13-ed00e867f50.tar.gz
-    05a0ae35f9b938cc230f606d738e63cd41160efa4a4d95c7f5b733e1eaef9d7f  arm-linux-android/openssl/openssl-3.0.13-ed00e867f50.tar.gz.hash
-    ea82a20960b1967939b9f48e55990a01d264aeb57e5605fd5d9c3d9ecd6b2ac9  arm-linux-android/openssl/openssl-3.0.19-88b8096b79e.tar.gz
-    0e9137dda99cac10664fa788a167ce62d00d1a2d3cb3842b836f37fb383574f1  arm-linux-android/openssl/openssl-3.0.19-88b8096b79e.tar.gz.hash
-    4a9b7d420ed89f9b222dc5e7218b32eae33257d6186ec186b960aba120375ef5  arm-linux-android/openssl/openssl-3.0.19-a9598e54a6d.tar.gz
-    4301a81a9f085412d9cc8cdf5071646e285abad0250b6506e8a8b3930efe8cb7  arm-linux-android/openssl/openssl-3.0.19-a9598e54a6d.tar.gz.hash
-    4185c7833e57d6ecad16cb48f7bcb68a722757eb5dab339ed7ce8c24c9873e17  arm-linux-android/readline/readline-8.0-37ff6081b8d.tar.gz
-    d3e1927ccf322a58d4e7f29714b98d339fdd19f5aad379a1f6a83c4f7be9e9fc  arm-linux-android/readline/readline-8.0-37ff6081b8d.tar.gz.hash
+    1bffbe0cfd414aa2d4d38bf62e1ba9c0ca33bc6d554095121f32e53cc068b773  arm-linux-android/openssl/openssl-3.0.19-88b8096b79e.tar.gz
+    63e9a94110a9d7229fcfc3b35e8b346c7b2b919efdfd9536e26d1e56d98398aa  arm-linux-android/openssl/openssl-3.0.19-88b8096b79e.tar.gz.hash
     1d267171e1dd46199da52552cc7545680a06b58f6aa8b7079f2358664f151a49  arm-linux-android/readline/readline-8.0-8e7d06d5400.tar.gz
     f780d52502cd4bec8220fba83620c6ceb33fe0cf139447e62d132e35235312c5  arm-linux-android/readline/readline-8.0-8e7d06d5400.tar.gz.hash
-    4185c7833e57d6ecad16cb48f7bcb68a722757eb5dab339ed7ce8c24c9873e17  arm-linux-android/readline/readline-8.0-f78c0cae426.tar.gz
-    a9e40b25a64b7574393f34b95f335b215e79e0ac6cf2609f0b3987e42ae81b00  arm-linux-android/readline/readline-8.0-f78c0cae426.tar.gz.hash
     364ca438b49c307fa2e8cf0e696f8dece28fac0bc00e2f667a213b1e3fe5fab0  arm-linux-android/sodium/sodium-1.0.18-07958a410b8.tar.gz
     887c4a9114797267c93d38c75fd470b31d23486ef0107df3563668a5a1379f12  arm-linux-android/sodium/sodium-1.0.18-07958a410b8.tar.gz.hash
-    f73821fe4b056699e7c07c5a5c88a2e6399c2848e71fe5ed8b572142399cd36a  arm-linux-android/sodium/sodium-1.0.18-3953eabfed1.tar.gz
-    d96190999271f5684e9b4b2527ec87683bf69e37cdb470ae9dbcc9a0c910090f  arm-linux-android/sodium/sodium-1.0.18-3953eabfed1.tar.gz.hash
-    f73821fe4b056699e7c07c5a5c88a2e6399c2848e71fe5ed8b572142399cd36a  arm-linux-android/sodium/sodium-1.0.18-ed35d176c19.tar.gz
-    7dadedb55782d88a770d297a7da659ef9fa3f246a62932b9122b229f1559eee1  arm-linux-android/sodium/sodium-1.0.18-ed35d176c19.tar.gz.hash
-    77e08731c8633bae8d8bfea3763aeaeb631f6d74129928db46285a39e8a03c2a  arm-linux-android/unbound/unbound-1.15.0-0a8b11c62a2.tar.gz
-    0e938380fcc37e8846e254a421426a432e1509faf5c400998daf054c0b1abb94  arm-linux-android/unbound/unbound-1.15.0-0a8b11c62a2.tar.gz.hash
-    77e08731c8633bae8d8bfea3763aeaeb631f6d74129928db46285a39e8a03c2a  arm-linux-android/unbound/unbound-1.15.0-964b0199bed.tar.gz
-    0aa6530817e30d4e0c60f930b3697a692391e0318416105728d10432312f8dfd  arm-linux-android/unbound/unbound-1.15.0-964b0199bed.tar.gz.hash
-    7e39252d70bc82ddd8cca869adfeeffb2b2f405471357f717bd03f8057c27cec  arm-linux-android/unbound/unbound-1.19.1-1ca2a7e3ef4.tar.gz
-    40d4292204951921e05497ab1f01771ff1ce554f8c8a2a12b66778321925f26b  arm-linux-android/unbound/unbound-1.19.1-1ca2a7e3ef4.tar.gz.hash
     5cfb2aea14317091515ba881bd5fb2a036a03cedd3d86f24e1a5fc1711595d1c  arm-linux-android/unbound/unbound-1.19.1-345e21a6bbb.tar.gz
     883214686a54b7fec32486038c1603fa990f8f5da564261a7f11289f32a293b7  arm-linux-android/unbound/unbound-1.19.1-345e21a6bbb.tar.gz.hash
-    5cfb2aea14317091515ba881bd5fb2a036a03cedd3d86f24e1a5fc1711595d1c  arm-linux-android/unbound/unbound-1.19.1-82cd98dbefd.tar.gz
-    b9b101c44a62fd03e407a88f2852b39d1560939c319a4c78b53b165b4c18c54e  arm-linux-android/unbound/unbound-1.19.1-82cd98dbefd.tar.gz.hash
-    5cfb2aea14317091515ba881bd5fb2a036a03cedd3d86f24e1a5fc1711595d1c  arm-linux-android/unbound/unbound-1.19.1-994d5fb6962.tar.gz
-    3d00daf0d553b170fcf5873433225a8433d63fdca3a1e17da48c51a15c7c7c9b  arm-linux-android/unbound/unbound-1.19.1-994d5fb6962.tar.gz.hash
-    249c1f80ddff1588becb2b057c8a30e321516a86134376e6e5b7332302b05c10  arm-linux-android/zeromq/zeromq-4.3.4-273415b89b3.tar.gz
-    6a8c6353ee9850775709523c6160c897f1f9aa7194964bb99fdb9fc0d987b434  arm-linux-android/zeromq/zeromq-4.3.4-273415b89b3.tar.gz.hash
-    249c1f80ddff1588becb2b057c8a30e321516a86134376e6e5b7332302b05c10  arm-linux-android/zeromq/zeromq-4.3.4-576e7cf49f7.tar.gz
-    e88f8fb0b3f8a715643bf8310f0c5a7ed3ec9c8cf6a4dc8a636c5fdc1503c3d7  arm-linux-android/zeromq/zeromq-4.3.4-576e7cf49f7.tar.gz.hash
     4847afb365fb9a38bc086e850736f4fcb8e4ddb210a5144b05ce43689a450819  arm-linux-android/zeromq/zeromq-4.3.4-94a99b46afa.tar.gz
     5208c695490c0b7f02fa14188d63108cda85c69870885088c75e3841c55dd30b  arm-linux-android/zeromq/zeromq-4.3.4-94a99b46afa.tar.gz.hash
 - release: v0.18.5.0-android
